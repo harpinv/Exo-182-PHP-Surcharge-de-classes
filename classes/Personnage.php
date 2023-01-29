@@ -10,6 +10,8 @@ class Personnage {
     protected $id;
     protected $nom;
     protected $vie;
+    protected $x;
+    protected $y;
 
     // Constructeur de ma classe permettant de définir des valeurs par défaut lorsqu'elle est instanciée
     public function __construct() {

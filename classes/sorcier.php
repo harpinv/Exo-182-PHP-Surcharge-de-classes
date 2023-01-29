@@ -1,9 +1,6 @@
 <?php
 
-class Princesse extends personnage
-{
-
-    private $saved;
+class sorcier extends Personnage {
 
     public function __construct() {
         // Surcharge de la méthode construct, on éxécute celle de la classe parent puis on redéfini les propriétés qui
@@ -11,8 +8,7 @@ class Princesse extends personnage
         parent::__construct();
 
         // Définition des propriétés propre à cette classe
-        $this->saved = 0;
-        $this->x = 450;
-        $this->y = 450;
+        $this->x = 125;
+        $this->y = 125;
     }
-} 
+}
